@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from pydantic import Field, computed_field, PostgresDsn
+from pydantic import Field, PostgresDsn, computed_field
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 # 以当前文件为基准，找向上2级的父目录，也就是项目的根目录

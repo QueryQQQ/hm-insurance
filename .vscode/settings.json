@@ -3,5 +3,12 @@
   "python.analysis.extraPaths": [
     "${workspaceFolder}/agent-service"
   ],
-  "python.terminal.activateEnvironment": true
+  "python.terminal.activateEnvironment": true,
+  "python-envs.pythonProjects": [
+    {
+      "path": "agent-service/notebooks",
+      "envManager": "ms-python.python:venv",
+      "packageManager": "ms-python.python:pip"
+    }
+  ]
 }
